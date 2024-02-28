@@ -1,0 +1,188 @@
+("--------Ejercicio 1-------");
+
+    for(int i = 1; i <= 3; i++) {
+
+                    if(i % 2 == 1) {
+
+                                    System.out.println(i + 1);
+     
+     Iteracion 1=  
+     			i=1
+     				Salida=2
+                    
+   	 Iteracion 2=
+   	 			i=2 
+   					Salida= nada
+   	 Iteracion 3= 
+   	 			i=3
+   	 				Salida= 4
+   	 	
+   	("--------Ejercicio 2-------");
+   	 
+   }   for(int i = 1; i <= 6; i+=2) {
+
+              if(i % 2 == 0) {
+
+      System.out.println(i - 1);       
+      
+      Iteracion 1= 
+      				i=3
+      				Salida= Nada 
+      				
+     Iteracion 2= 		
+     				i=5		
+      				Salida= Nada
+     	
+     Iteracion 3= 
+     				i=7
+                    Salida = Nada
+                    	
+                    ("--------Ejercicio 3-------");
+
+     for(int i = 1; i <= 6; i+=3) {
+
+        if(i % 2 == 0) {
+
+          System.out.println(i - 1);
+
+           }else {
+
+           System.out.println(i + 1)
+           
+           Iteracion 1= 
+           				
+           			i= 1
+           			salida= 2
+           
+           Iteracion 2=
+            
+           			i=4 
+           			salida = 3
+           			
+        		("--------Ejercicio 4-------");
+        		
+      for(int i = 1; i <= 6; i++) {
+
+       if(i % 2 == 0) {
+
+      System.out.println(i - 1);
+								
+                 }else {
+						    i++;
+						    
+ Iteracion 1=
+ 			 i=3
+ 			 
+ 			 	Salida= Nada
+ 			 
+Iteracion 2=
+			i=5
+				Salida= Nada
+				
+				
+				
+				 ("--------Ejercicio 5-------");
+				
+for(int i = 1; i <= 6; i++) {
+
+int variable = 1;
+
+if(i % 2 == 0 && variable != 3) {
+
+System.out.println(i)
+    }
+
+variable ++;
+
+Iteracion1= 
+			i=2
+				Salida= 2
+Iteracion2= 
+			i=4
+				Salida=4
+				
+Iteracion3=	
+			i=6
+				Salida=6	
+				
+				 ("--------Ejercicio 6-------");			
+				
+for(int i = 1; i <= 6; i++) {
+
+int variable = 1;
+
+if(i % 2 != 0 || variable != 3) {
+
+System.out.println(i);
+}
+variable += 2;
+
+Iteracion1= 
+			i=1
+			   Salida= 1
+iteracion2= 
+			i=2	
+				Salida=2
+				
+Iteracion1=3 
+			i=3
+			   Salida= 3
+iteracion4=
+			i=4
+				Salida=4 
+
+Iteracion1=5 
+			i=5
+			   Salida= 5
+			   
+iteracion6= 
+			i=6
+				Salida=6  		
+ 						   
+				("--------Ejercicio 7-------");      
+				
+for(int i = 1; i <= 5; i++) {
+
+if(i % 2 == 0) {
+
+System.out.println(i - 1);
+ }             
+
+if(i == 3) {
+
+                   break;
+                   
+Iteracion1 
+			i=2
+				Salida=1 
+Iteracion 3
+			i= 4
+				Salida= Nada, Funcion Break		
+				
+				
+				("--------Ejercicio 8-------"); 
+					
+for(int i = 1; i <= 5; i++) {
+
+if(i % 2 == 0) {
+
+System.out.println(i - 1);
+}             
+
+if(i == 3) {
+
+ continue;		
+ 
+ Iteracion1= 
+ 			i=2
+ 				Salida=1
+ 
+Iteracion2 = 
+			i=3
+				Salida 3 									                  
+    
+           
+           
+           
+           
+           
