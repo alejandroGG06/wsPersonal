@@ -11,18 +11,20 @@ public class Main_Ordenador {
 		
 		miordenador.procesador= new procesador("AMD","Ryzen9" ,12, 600);
 		miordenador.placa_Base= new Placa_Base("MSI", 149.90, "ATX");
-		miordenador.tarjetaGrafica= new TarjetaGrafica("AMD","6600xt", 32, 200,"8GB" );
+		
 		miordenador.listaRam = new ArrayList<>();
 		
-			for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 4; i++) {
 			
 				miordenador.listaRam.add(new Ram("coursair", "8GB", 66.50));
 			}
+			Ram tj1= new Ram("16GB","amd",0);
+			miordenador.tarjetaGrafica= new TarjetaGrafica("AMD","6600xt", 32, 200,tj1 );
 			
 			
 		
 	        
-	        
+	   
 	        miordenador.listaperPerifericos = new ArrayList<>();
 	        miordenador.listaperPerifericos.add(new Perifericos("Teclado", "Logitech", 80.0));
 	        miordenador.listaperPerifericos.add(new Perifericos("Ratón", "Razer", 60.0));

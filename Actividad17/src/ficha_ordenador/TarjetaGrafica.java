@@ -6,10 +6,10 @@ public class TarjetaGrafica {
 	String modelo;
 	int CUDA;
 	double precio;
-	String ram;
+	Ram ram;
 	
 	
-	public TarjetaGrafica(String marca, String modelo, int CUDA, double precio, String ram) {
+	public TarjetaGrafica(String marca, String modelo, int CUDA, double precio, Ram ram) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;
@@ -20,7 +20,7 @@ public class TarjetaGrafica {
 	
 	public String toString() {
 		return" Tarjeta Grafica: "+" marca: "+ this.marca+" modelo: "+this.modelo+" CUDA: "+this.CUDA+" precio: "
-		+this.precio+" ram: "+this.ram;
+		+this.precio +this.ram;
 	}
 	public double Precio() {
 		return this.precio;
