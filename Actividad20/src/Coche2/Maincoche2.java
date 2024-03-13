@@ -39,7 +39,7 @@ public class Maincoche2 {
 
 				break;
 			case 3:
-				mostarCont();
+				mostrarCont();
 
 				break;
 
@@ -85,8 +85,9 @@ public class Maincoche2 {
 		}
 		
 	
-	 public void mostarCont() {
+	 public void mostrarCont() {
 		 System.out.println("el id actual es: "+ coche.getContadorID());
+		
 	 }
 	
 

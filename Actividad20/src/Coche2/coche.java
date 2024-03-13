@@ -2,10 +2,10 @@ package Coche2;
 
 public class coche {
 
-	public int id;
+	public  int id;
 	public String matricula;
 	public String marca;
-	public static int contadorID;
+	private static int contadorID;
 	
 	public int getId() {
 		return id;
@@ -37,14 +37,18 @@ public class coche {
 		return "coche [id=" + id + ", matricula=" + matricula + ", marca=" + marca + "]";
 	}
 	
+	
+	
 	public coche() {
-		this.id=contadorID++;
-
+		this.id=1;
+		this.id+=contadorID++;
+		
 	}
 	
 	public static void resetCont(){
 		contadorID=0;
 	}
+	
 	
 	
 	public static final String TOYOTA="Toyota";
