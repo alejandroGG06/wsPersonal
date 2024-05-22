@@ -63,6 +63,7 @@ public class mainPersona {
 				}
 				break;
 			case 4: System.out.println("saliendo del programa");
+			
 				break;
 			}
 		} while (opcion != 4);
